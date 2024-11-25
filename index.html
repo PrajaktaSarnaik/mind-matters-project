@@ -23,10 +23,41 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
     <!-- Navbar -->
-
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/icon.png" alt="icon" id="title-name" width="30" height="30">
+                <strong>Mind Matters</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Awareness</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="support.html"><strong>Support</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html"><strong>Resources</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gethelp-form.html"><strong>Contact Us</strong></a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a id="emergency-button" class="btn custom-button-filled ms-lg-3" data-bs-toggle="modal"
+                        data-bs-target="#helplineModal">Emergency!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Header -->
     <header>
         <h1>Mind Matters</h1>
@@ -39,15 +70,16 @@
 
     <!-- Footer -->
     <footer>
-    </footer>   
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+        </script>
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
