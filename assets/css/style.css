@@ -156,7 +156,7 @@ h6 {
     height: 15rem;
     background: linear-gradient(135deg, #a8d8ea, #fef6e4);
     padding: 10px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0.3s ease;
     /* Smooth hover effect */
     margin: 10px;
@@ -164,10 +164,10 @@ h6 {
 }
 
 .card:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     /* Slight zoom-in effect */
     transition: transform 0.7s;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     /* Enhanced shadow */
     z-index: 10;
     /* Bring to front */
@@ -217,6 +217,53 @@ h6 {
     line-height: 1.6;
   }
 
+/***** Frequently Asked Questions *****/
+
+/* Add animation to accordion */
+.accordion-button {
+    background-color:  var(--highlight-color-light); 
+    color:  var(--secondary-color); 
+    border: 1px solid #b3d9ff; 
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for accordion button */
+.accordion-button:hover {
+    background-color: #e0f2ff; 
+    border-color: var(--secondary-color); 
+    color: #003d80; 
+}
+
+/* Active state for accordion button */
+.accordion-button:not(.collapsed) {
+    background-color: #a8d8ea;
+    color: var(--highlight-color); 
+    border-color: #80c2ff; 
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom border color for accordion body */
+.accordion-body {
+    border: 1px solid #80c2ff; 
+    border-top: none; 
+    padding: 1rem;
+    background-color: #f9fcff; 
+}
+ .accordion-collapse {
+    overflow: hidden;
+    transition: max-height 0.1s ease-out, padding 0.1s ease-out;
+}
+
+.accordion-collapse.collapse {
+    max-height: 0;
+    padding: 0;
+}
+
+.accordion-collapse.show {
+    max-height: 300px; /* Adjust based on content height */
+    padding: 1rem;
+}
+
 /***** Testimonial card *****/
 
 .testimonial-card {
@@ -226,11 +273,6 @@ h6 {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.testimonial-card:hover {
-    transform: scale(1.03);
 }
 
 .testimonial-image {
@@ -249,4 +291,56 @@ h6 {
 
 .testimonial-text {
     font-size: 1rem;
+}
+
+/***** Footer *****/
+
+.footer {
+    background-color: var(--primary-color);
+    color: #f8f9fa;
+    /* Light text for contrast */
+    font-size: 0.9rem;
+    padding: 10px 0;
+    /* Reduce vertical padding */
+    margin-top: 25px;
+    /* Adds space between the footer and the content above */
+
+}
+
+.footer-logo {
+    font-family: var(--secondary-font);
+    /* Elegant and clean typography */
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    /* Soothing green tone for mental health */
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    /* Add a soft green hover effect */
+}
+
+.footer h5 {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    font-size: 0.9rem;
+}
+
+.bi {
+    font-size: 1.2rem;
+    color:  var(--secondary-color);
 }
