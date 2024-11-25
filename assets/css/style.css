@@ -176,3 +176,40 @@ h6 {
     color: var(--secondary-color);
 }
 
+/* Carousel */
+.carousel-inner {
+    background: linear-gradient(135deg, #a8d8ea, #fef6e4);
+  }
+
+  .carousel-item {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .carousel-item img {
+    height: 200px; /* Adjust the height of the images */
+    width: 400px;   /* Keep the aspect ratio of the images */
+    border-radius: 50%;
+    border: 2px solid var(--highlight-color);
+    object-fit: cover;
+  }
+
+  .text-primary {
+    color: #014f86 !important;
+    font-weight: bold;
+  }
+
+  .text-success {
+    color: #0fa94f !important;
+    font-weight: bold;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none ;
+  }
+
+  .carousel-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
