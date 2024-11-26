@@ -25,6 +25,7 @@
 html,
 body {
     min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 body,
@@ -272,7 +273,7 @@ h6 {
     object-fit: cover;
     border-radius: 50%;
     border: 1px solid var(--secondary-color);
-    opacity: 0.7; /* Set the transparency level (0.0 = fully transparent, 1.0 = fully opaque) */
+    opacity: 1.0; /* Set the transparency level (0.0 = fully transparent, 1.0 = fully opaque) */
   }
 
   /* Back side styling */
@@ -308,10 +309,15 @@ h6 {
     top: 50%; /* Centers the text vertically */
     left: 50%; /* Centers the text horizontally */
     transform: translate(-50%, -50%); /* Corrects the centering based on the text size */
-    color: var(--secondary-color); 
-    background-color: rgba(244, 240, 240, 0.6);
+    /* color: var(--secondary-color);  */
+    color: #fff; 
+    background-color: rgba(8, 59, 93, 0.6);
+    /* background-color: rgba(244, 240, 240, 0.6); */
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
     font-size: 24px; /* Text size */
-    font-weight: bold; /* Optional: makes the text bold */
+    /*font-weight: bold;*/ /* Optional: makes the text bold */
     text-align: center; /* Center align the text */
   }
 
@@ -586,13 +592,3 @@ h6 {
     color: var(--secondary-color);
 }
 
-/***** Responsive Design Media Queries*****/
-
-/* Responsive adjustments for large screens */
-@media (min-width: 992px) {
-
-    /* Make all service cards the same height for consistency */
-    .support-body {
-        /* max-height: 288px; */
-    }
-}
