@@ -516,6 +516,18 @@ h6 {
     font-size: 1.1rem;
 }
 
+/***** Support *****/
+
+.img-fluid {
+    width: 300px;
+    height: auto;
+}
+#support h3 {
+
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
 /***** Footer *****/
 
 .footer {
@@ -573,7 +585,7 @@ h6 {
 @media (min-width: 992px) {
 
     /* Make all service cards the same height for consistency */
-    .testimonial-card {
-        /* min-height: 324px; */
+    .support-body {
+        /* max-height: 288px; */
     }
 }
