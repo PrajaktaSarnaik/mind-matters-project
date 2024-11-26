@@ -9,11 +9,16 @@
 :root {
     --primary-font: 'Open Sans', sans-serif;
     --secondary-font: 'Lobster';
-    --primary-color: #85ccce; /* Tiffany Blue */
-    --secondary-color: #1b3a4b; /* Charcoal */
-    --highlight-color: #13636E; /* Caribbean Current */
-    --highlight-color-light: #fef6e4; /* Cosmic latte */
-    --highlight-color-dark: #014f86; /* Indigo dye */
+    --primary-color: #85ccce;
+    /* Tiffany Blue */
+    --secondary-color: #1b3a4b;
+    /* Charcoal */
+    --highlight-color: #13636E;
+    /* Caribbean Current */
+    --highlight-color-light: #fef6e4;
+    /* Cosmic latte */
+    --highlight-color-dark: #014f86;
+    /* Indigo dye */
     /* #ffa500 - Orange (web) */
 }
 
@@ -58,7 +63,7 @@ h6 {
 
 .nav-link.active {
     font-weight: bold;
-   
+
 }
 
 /***** Emergency Helpline ******/
@@ -182,74 +187,77 @@ h6 {
 
 .carousel-inner {
     background: linear-gradient(135deg, #a8d8ea, #fef6e4);
-  }
+}
 
-  .carousel-item {
+.carousel-item {
     border-radius: 15px;
     overflow: hidden;
-  }
+}
 
-  .carousel-item img {
-    height: 200px; /* Adjust the height of the images */
-    width: 400px;   /* Keep the aspect ratio of the images */
+.carousel-item img {
+    height: 200px;
+    /* Adjust the height of the images */
+    width: 400px;
+    /* Keep the aspect ratio of the images */
     border-radius: 50%;
     border: 2px solid var(--highlight-color);
     object-fit: cover;
-  }
+}
 
-  .text-primary {
+.text-primary {
     color: #014f86 !important;
     font-weight: bold;
-  }
+}
 
-  .text-success {
+.text-success {
     color: #0fa94f !important;
     font-weight: bold;
-  }
+}
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    display: none ;
-  }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: none;
+}
 
-  .carousel-item p {
+.carousel-item p {
     font-size: 1.1rem;
     line-height: 1.6;
-  }
+}
 
 /***** Frequently Asked Questions *****/
 
 /* Add animation to accordion */
 .accordion-button {
-    background-color:  var(--highlight-color-light); 
-    color:  var(--secondary-color); 
-    border: 1px solid #b3d9ff; 
+    background-color: var(--highlight-color-light);
+    color: var(--secondary-color);
+    border: 1px solid #b3d9ff;
     transition: all 0.3s ease-in-out;
 }
 
 /* Hover effect for accordion button */
 .accordion-button:hover {
-    background-color: #e0f2ff; 
-    border-color: var(--secondary-color); 
-    color: #003d80; 
+    background-color: #e0f2ff;
+    border-color: var(--secondary-color);
+    color: #003d80;
 }
 
 /* Active state for accordion button */
 .accordion-button:not(.collapsed) {
     background-color: #a8d8ea;
-    color: var(--highlight-color); 
-    border-color: #80c2ff; 
+    color: var(--highlight-color);
+    border-color: #80c2ff;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Custom border color for accordion body */
 .accordion-body {
-    border: 1px solid #80c2ff; 
-    border-top: none; 
+    border: 1px solid #80c2ff;
+    border-top: none;
     padding: 1rem;
-    background-color: #f9fcff; 
+    background-color: #f9fcff;
 }
- .accordion-collapse {
+
+.accordion-collapse {
     overflow: hidden;
     transition: max-height 0.1s ease-out, padding 0.1s ease-out;
 }
@@ -260,7 +268,8 @@ h6 {
 }
 
 .accordion-collapse.show {
-    max-height: 300px; /* Adjust based on content height */
+    max-height: 300px;
+    /* Adjust based on content height */
     padding: 1rem;
 }
 
@@ -342,5 +351,16 @@ h6 {
 
 .bi {
     font-size: 1.2rem;
-    color:  var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+/***** Responsive Design Media Queries*****/
+
+/* Responsive adjustments for medium screens */
+@media (min-width: 768px) {
+
+    /* Make all service cards the same height for consistency */
+    .testimonial-card {
+        min-height: 397px;
+    }
 }
