@@ -118,8 +118,7 @@
                         placeholder="Describe your concerns or questions" required></textarea>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-custom" data-bs-toggle="modal"
-                        data-bs-target="#thankYouModal">Submit</button>
+                    <button type="submit" class="btn btn-custom">Submit</button>
                 </div>
             </form>
         </div>
@@ -201,7 +200,33 @@
         </div>
     </footer>
 
+<!--***** Script *****-->
 
+<!-- Script for form submit validation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.querySelector('form');
+            const submitButton = document.querySelector('.btn-custom');
+            const thankYouModal = new bootstrap.Modal(document.getElementById('thankYouModal')); // Initialize Bootstrap Modal
+    
+            form.addEventListener('submit', (event) => {
+                event.preventDefault(); // Prevent form submission
+                if (form.checkValidity()) {
+                    thankYouModal.show(); // Show modal if form is valid
+                } else {
+                    form.reportValidity(); // Show built-in validation errors
+                }
+            });
+    
+            submitButton.addEventListener('click', () => {
+                if (form.checkValidity()) {
+                    thankYouModal.show(); // Show modal on valid form submission
+                } else {
+                    form.reportValidity(); // Show built-in validation errors
+                }
+            });
+        });
+    </script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
