@@ -528,6 +528,13 @@ h6 {
     color: var(--primary-color);
 }
 
+/***** Resources *****/
+
+/* Iframe video */
+.ratio iframe {
+    padding: 25px;
+}
+
 /***** Footer *****/
 
 .footer {
