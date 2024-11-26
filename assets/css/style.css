@@ -169,7 +169,7 @@ h6 {
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     /* Slight zoom-in effect */
     transition: transform 0.7s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -369,11 +369,11 @@ h6 {
 
 .testimonial-card {
     background: linear-gradient(135deg, #a8d8ea, #fef6e4);
-    /* background-color: var(--highlight-color-light); */
     border: 1px solid #dee2e6;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* margin: auto; */
 }
 
 .testimonial-image {
@@ -448,11 +448,11 @@ h6 {
 
 /***** Responsive Design Media Queries*****/
 
-/* Responsive adjustments for medium screens */
-@media (min-width: 768px) {
+/* Responsive adjustments for large screens */
+@media (min-width: 992px) {
 
     /* Make all service cards the same height for consistency */
     .testimonial-card {
-        min-height: 397px;
+        /* min-height: 324px; */
     }
 }
