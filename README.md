@@ -189,6 +189,8 @@ Website used to generate color pallette :
 
 ## Wireframes
 
+- Wireframe screenshots for different size devices: 
+
 ![Screenshot for Mobile: ](assets/readme-images/mobile-wireframe.PNG)
 ![Screenshot for Tablet: ](assets/readme-images/tablet-wireframe.PNG)
 ![Screenshot for Laptop: ](assets/readme-images/laptop-wireframe.PNG)
