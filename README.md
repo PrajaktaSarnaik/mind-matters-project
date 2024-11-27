@@ -251,7 +251,7 @@ This project was made possible with the support of the following resources and t
 - **[GitHub Copilot](https://github.com/features/copilot)**: For helping to write efficient code and enhance productivity during development.
 - **[YouTube](https://www.youtube.com/)**: For providing insightful tutorials and guidance on web development best practices.
 - **[Bootstrap](https://getbootstrap.com/)**: For its powerful framework that enabled the creation of a responsive and visually appealing website.
-- **[Bootstrap](https://balsamiq.com/)**: For creating wireframes for website quickly and efficiently.
+- **[Balsamiq](https://balsamiq.com/)**: For creating wireframes for website quickly and efficiently.
 
 A heartfelt thanks to my mentor **Emma** and coding coaches **Spencer** and **Roo** who guided me throughout this project. Their valuable feedback, support and encouragement were instrumental in shaping this website into its final form.
 
