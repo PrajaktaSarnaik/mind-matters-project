@@ -10,7 +10,7 @@ Mind Matters is a thoughtfully designed platform aimed at promoting mental healt
 
 The platform emphasizes accessibility, inclusivity and user engagement through responsive design, intuitive navigation, and visually appealing content.
 
-![responsive Screenshot](assets/screenshots/homepage.png)
+![responsive Screenshot](assets/readme-images/responsive.PNG)
 
 ## **Table of Contents**
 
