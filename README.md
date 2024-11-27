@@ -44,6 +44,12 @@ Includes videos to help users build a solid understanding of mental health, the 
 A form-based page allowing users to get in touch for queries, feedback or direct assistance.
 Includes social media links, email and a physical address for further connection.
 
+![Awareness Page: ](assets/readme-images/awareness-page.PNG)
+![Support Page: ](assets/readme-images/support-page.PNG)
+![Resources page: ](assets/readme-images/resources-page.PNG)
+![Contact Page: ](assets/readme-images/contact-page.PNG)
+![Emergency Popup: ](assets/readme-images/emergency-popup.PNG)
+
 ## UX
 
 
@@ -222,6 +228,10 @@ This project was developed using the following tools and technologies:
 - W3C validator screenshots for CSS:
 
 ![CSS](assets/readme-images/css-validate.PNG)
+
+### Automated testing : 
+
+![Lighthouse](assets/readme-images/lighthouse-index.PNG)
 
 (I've added a small section of JavaScript for form validation based on Coding Coach- Spencer's recommendation.)
 ## Deployment
