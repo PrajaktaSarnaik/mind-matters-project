@@ -29,10 +29,10 @@ The platform emphasizes accessibility, inclusivity and user engagement through r
 
 ## Project Structure
 
-![Project Structure](assets/screenshots/homepage.png)
+![Project Structure](assets/readme-images/project-structure.PNG)
 
 
-## Pages Overview
+## Pages Overview and Features
 - **Awareness (index.html):**
 The homepage introduces users to the mission of "Mind Matters" and highlights the importance of mental health. An emergency helpline in the event of crisis helps people to seek immediate help.
 Features problem-solution cards, testimonials , myths and facts and FAQs designed to enhance emotional well-being.
@@ -185,13 +185,13 @@ As a user, I want the website to adjust seamlessly to my device's screen size, s
 Website used to generate color pallette :
 [https://coolors.co/](https://coolors.co/)
 
-![Color Pallete Screenshot](assets/screenshots/homepage.png)
+![Color Pallete Screenshot](assets/readme-images/color-pallete.PNG)
 
 ## Wireframes
 
-![Screenshot for Mobile: ](assets/screenshots/homepage.png)
-![Screenshot for Tablet: ](assets/screenshots/homepage.png)
-![Screenshot for Laptop: ](assets/screenshots/homepage.png)
+![Screenshot for Mobile: ](assets/readme-images/mobile-wireframe.PNG)
+![Screenshot for Tablet: ](assets/readme-images/tablet-wireframe.PNG)
+![Screenshot for Laptop: ](assets/readme-images/laptop-wireframe.PNG)
 ## Technologies
 
 ### Development Environment
@@ -210,9 +210,16 @@ This project was developed using the following tools and technologies:
 
 ### Manual testing : 
 
-![W3C validator for HTML](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+- W3C validator screenshots for HTML pages:
 
-![W3C validator for CSS](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Index HTML](assets/readme-images/html-validate-index.PNG)
+![Support HTML](assets/readme-images/html-validate-support.PNG)
+![Resources HTML](assets/readme-images/html-validate-resources.PNG)
+![Contact HTML](assets/readme-images/html-validate-contact.PNG)
+
+- W3C validator screenshots for CSS:
+
+![CSS](assets/readme-images/css-validate.PNG)
 
 (I've added a small section of JavaScript for form validation based on Coding Coach- Spencer's recommendation.)
 ## Deployment
@@ -243,6 +250,6 @@ This project was made possible with the support of the following resources and t
 - **[YouTube](https://www.youtube.com/)**: For providing insightful tutorials and guidance on web development best practices.
 - **[Bootstrap](https://getbootstrap.com/)**: For its powerful framework that enabled the creation of a responsive and visually appealing website.
 
-A heartfelt thanks to my mentor Emma and coding coaches Spencer and Roo who guided me throughout this project. Their valuable feedback, support and encouragement were instrumental in shaping this website into its final form.
+A heartfelt thanks to my mentor **Emma** and coding coaches **Spencer** and **Roo** who guided me throughout this project. Their valuable feedback, support and encouragement were instrumental in shaping this website into its final form.
 
 
