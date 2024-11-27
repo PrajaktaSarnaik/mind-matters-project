@@ -1,131 +1,248 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Prajakta Sarnaik,
+# Mind Matters
+## Project Brief: Mental Health Awareness
+### By Prajakta Sarnaik
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Link to Mind Matters website](https://prajaktasarnaik.github.io/mind-matters-project/)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+- Description: 
+Mind Matters is a thoughtfully designed platform aimed at promoting mental health awareness and providing essential resources, support, and connections for individuals seeking a path to well-being. With four dedicated sections—Awareness, Support, Resources, and Contact Us—the platform offers a comprehensive approach to mental health, ensuring users have access to valuable information and practical solutions in an interactive and engaging format.
 
-## Gitpod Reminders
+The platform emphasizes accessibility, inclusivity and user engagement through responsive design, intuitive navigation, and visually appealing content.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![responsive Screenshot](assets/screenshots/homepage.png)
 
-`python3 -m http.server`
+## **Table of Contents**
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+1. [Project Structure](#project-structure)
+2. [UX](#ux)
+3. [User Stories](#user-stories)
+4. [Color Reference](#color-reference)
+5. [Wireframes](#wireframes)
+6. [Technologies](#technologies)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Future Enhancements](#future-enhancements)
+10. [Credits](#credits)
 
 ---
 
-Happy coding!
+## Project Structure
+
+![Project Structure](assets/screenshots/homepage.png)
+
+
+## Pages Overview
+- **Awareness (index.html):**
+The homepage introduces users to the mission of "Mind Matters" and highlights the importance of mental health. An emergency helpline in the event of crisis helps people to seek immediate help.
+Features problem-solution cards, testimonials , myths and facts and FAQs designed to enhance emotional well-being.
+- **Support (support.html):**
+A dedicated section offering avenues for seeking help, including links to one-on-one sessions, online consultation, support groups and activity groups provides actionable steps for coping with stress, anxiety, and depression.
+- **Resources (resources.html):**
+Includes videos to help users build a solid understanding of mental health, the problems and the solution.
+- **Contact Us (contact.html):**
+A form-based page allowing users to get in touch for queries, feedback or direct assistance.
+Includes social media links, email and a physical address for further connection.
+
+## UX
+
+
+The Mind Matters platform is designed with a user-first approach, ensuring ease of navigation, accessibility, and engagement. Every element of the website has been carefully crafted to promote a seamless and enriching experience for users seeking mental health awareness and resources.
+
+### Key UX Considerations
+**1 . User-Centric Navigation**:
+
+- A clean and intuitive navigation bar ensures users can easily switch between Awareness, Support, Resources and Contact pages.
+- All content is categorized and presented in a structured manner for effortless exploration.
+
+**2 . Responsive Design**:
+
+- The website adapts flawlessly to all screen sizes, from mobile devices to large desktop displays.
+- Responsive media elements like images, videos, and flip cards provide consistent interaction across devices.
+
+**3 . Accessibility**:
+
+- High-contrast text and well-defined font choices ensure readability for users with visual impairments.
+- ARIA labels and semantic HTML enhance compatibility with screen readers.
+- Touch-friendly elements make it easy for mobile users to interact with buttons, cards, and links.
+
+**4 . Engaging Visuals**:
+
+- Interactive flip cards and animations create a dynamic experience without overwhelming the user.
+- The use of calming colors (like soft blues and greens) fosters a sense of trust and tranquility.
+
+**5 . Content Clarity**:
+
+- Short, impactful titles and descriptive paragraphs convey essential information effectively.
+- Content is broken into digestible sections, avoiding overwhelming users with large text blocks.
+
+**6 . Feedback Mechanism**:
+
+- The Contact Us page provides a simple form for users to share feedback, ask questions or seek additional support.
+
+**7 . Testimonials**:
+
+- Testimonials create a sense of relatability and community.
+- The design evokes a positive and encouraging vibe, reinforcing the message that users are not alone.
+
+## User Stories
+
+Implemented user stories for the creation of this website: 
+
+**1. User Story 1:** (must-have)
+
+As a website visitor, I want to understand the purpose of the site at a glance, so that I can decide if the website meets my needs for mental health resources and support.
+
+**Acceptance Criteria**
+ 
+- The homepage displays a clear and concise headline about mental health awareness.
+- Features a welcoming design with calming visuals.
+- A navigation menu is accessible at the top of the page.
+- Includes an "Emergency" button showing helpline number for emergencies.
+- Includes Myths and Facts about mental health.
+- Includes mental health problems and their solutions.
+- A dedicated section displays testimonials with user quotes, names (optional) and a profile picture/avatar (if provided).
+- Includes a section for frequently asked questions (FAQs) about mental health.
+
+**Tasks**
+
+- Create a section with a headline and subheadline.
+- Design a navigation menu with links to all key sections (Awareness, Support, Resources, Contact).
+- Include images or video that evokes trust and calmness.
+- Add a prominent "Emergency" button.
+- Add carousel with image and Myths and Facts information.
+- Add flip cards to tell about mental health problems and solutions.
+- Design a testimonials section with user quotes, optional profile pictures, and attribution.
+- Write and design an FAQ section addressing common concerns about Mental health.
+
+
+**2. User Story 2:** (must-have) 
+
+As a user in need of ongoing support, I want to find information about support groups, therapy options, and peer networks, so that I can connect with others and access personalized help.
+
+**Acceptance Criteria**
+
+- The support page lists various support options, including group sessions, one-on-one sessions and online communities.
+- Each option provides a brief description and a link to join or learn more.
+- Includes a section for frequently asked questions (FAQs) about mental health.
+
+**Tasks**
+
+- Make a provision to book for support groups, one-on-one sessions and online session.
+- Ensure content accessibility for screen readers and mobile devices.
+
+**3. User Story 3:** (must-have) 
+
+As a user seeking mental health support, I want to find a list of reliable resources, so that I can access professional help or self-help guides.
+
+**Acceptance Criteria**
+
+- A list of resources (e.g., Helplines, Articles or Videos) is displayed.
+- Each resource has a brief description and link to learn more.
+- Resource content is easy to accessible on mobile devices.
+
+**Tasks**
+
+- Research and compile a list of trusted mental health videos.
+- Test responsiveness for mobile and tablet devices.
+
+**User Story 4:** (must-have) 
+
+As a user in need of guidance, I want to contact the website team or access urgent helpline numbers, so that I can get help or share feedback about the site.
+
+**Acceptance Criteria**
+
+- The page includes a contact form with fields: Name, Email, Phone Number, Select from option and Message.
+- Displays a emergency helpline with contact number.
+- The form provides a success message after submission.
+
+**Tasks**
+
+- Design and implement the contact form.
+- Add validation for required fields (e.g., email must be in proper format).
+- Include an emergency helpline number.
+- Disply a thank you pop up message after a form submission.
+
+**User Story 5:** (must-have)
+
+As a user, I want the website to adjust seamlessly to my device's screen size, so that I can have a smooth and user-friendly experience.
+
+**Acceptance Criteria**
+
+- The website adapts properly on mobile, tablet, and desktop devices.
+- No horizontal scrolling or content overlap across any screen size.
+- Media elements (images, videos) resize without distortion.
+- Verify responsiveness on major browsers (eg. Chrome, Firefox, Safari).
+
+**Tasks**
+
+- Implement media queries for common breakpoints: mobile, tablet, desktop (if necessary).
+- Use Bootstrap’s grid system and flex to structure responsive layouts.
+- Test the layout on developer tools and physical devices.
+- Optimize images and videos for scaling across devices. 
+## Color Reference
+
+Website used to generate color pallette :
+[https://coolors.co/](https://coolors.co/)
+
+![Color Pallete Screenshot](assets/screenshots/homepage.png)
+
+## Wireframes
+
+![Screenshot for Mobile: ](assets/screenshots/homepage.png)
+![Screenshot for Tablet: ](assets/screenshots/homepage.png)
+![Screenshot for Laptop: ](assets/screenshots/homepage.png)
+## Technologies
+
+### Development Environment
+
+This project was developed using the following tools and technologies:
+
+- **IDE**: Visual Studio (Version X.X)
+- **Languages**: HTML5, CSS3, Bootstrap 5
+- **Version Control**: Git
+- **Operating System**: Windows 10
+
+
+
+
+## Testing
+
+### Manual testing : 
+
+![W3C validator for HTML](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![W3C validator for CSS](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+(I've added a small section of JavaScript for form validation based on Coding Coach- Spencer's recommendation.)
+## Deployment
+
+This section describes the process for deploymeny of the project from a hosting platform (e.g. GitHub)
+
+This website was deployed through GitHub pages. The steps to deploy the project are as follows:
+
+**1.** Navigate to the Settings tab in the GitHub repository.
+
+**2.** From the source section drop-down menu, select the Main Branch. 
+
+**3.** Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+## Future Enhancements
+
+- Add a blog section for regular updates and user contributions.
+- Include a chatbot for real-time support and queries.
+- Enable user registration for personalized recommendations.
+- Add multilingual support to reach a global audience.
+## Credits
+
+
+This project was made possible with the support of the following resources and tools:
+
+- **[Coolors.co](https://coolors.co/)**: For creating and selecting the color palette used in the design.
+- **[ChatGPT](https://openai.com/chatgpt)**: For providing guidance, suggestions, and assistance throughout the development process.
+- **[GitHub Copilot](https://github.com/features/copilot)**: For helping to write efficient code and enhance productivity during development.
+- **[YouTube](https://www.youtube.com/)**: For providing insightful tutorials and guidance on web development best practices.
+- **[Bootstrap](https://getbootstrap.com/)**: For its powerful framework that enabled the creation of a responsive and visually appealing website.
+
+A heartfelt thanks to my mentor Emma and coding coaches Spencer and Roo who guided me throughout this project. Their valuable feedback, support and encouragement were instrumental in shaping this website into its final form.
+
+
